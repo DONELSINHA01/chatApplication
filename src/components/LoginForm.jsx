@@ -28,8 +28,11 @@ const Modal = () => {
 
   return (
     <div className="wrapper">
+      <div>
       <p>userName:DonelSinha p/w:123123</p>
       <p>userName:Vicky p/w: 123123</p>
+      
+      </div>
       <div className="form">
         <h1 className="title">Chat Application</h1>
         <form onSubmit={handleSubmit}>
